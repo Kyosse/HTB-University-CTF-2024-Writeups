@@ -1,0 +1,22 @@
+===============================================================
+Gobuster v3.2.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Mode         : dir
+[+] Url/Domain   : http://jackcolt.dev
+[+] Threads      : 10
+[+] Wordlist     : /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Status codes : 200,204,301,302,307,401,403
+[+] User Agent   : gobuster/3.2.0
+[+] Timeout      : 10s
+[+] Extensions   : php
+===============================================================
+2019/06/21 11:49:43 Starting gobuster
+===============================================================
+/dashboard (Status: 401)
+/contact (Status: 301)
+/register.php (Status: 200)
+/index.php (Status: 200)
+/login.php (Status: 200)
+===============================================================
+2024/12/10 11:49:44 Finished
