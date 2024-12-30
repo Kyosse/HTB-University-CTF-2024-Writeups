@@ -2,7 +2,7 @@
 
 | Nom | Catégorie | Difficulté | Point initial |
 | :---: | :---: | :---: | :---: |
-| ColossalBreach | Reverse | Very Easy | 1000 |
+| ColossalBreach | Reverse | Medium | 1000 |
 
 ## Énoncé
 
