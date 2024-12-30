@@ -66,7 +66,7 @@ FLAG : `49`
 ---
 _Quel est le nom de la fonction qui modifie la valeur renseignée par l'utilisateur ?_
 
-Comme vu dans le point 1, la valeur de l'utilisateur passe dans la fonction `generate_key` avant d'être comparée avec le mot de passe du fichier. Cette fonction permet de mettre en forme la valeur de l'utilisateur pour qu'elle corresponde au mote de passe du fichier.
+Comme vu dans le point 1, la valeur de l'utilisateur passe dans la fonction `generate_key` avant d'être comparée avec le mot de passe du fichier. Cette fonction permet de mettre en forme la valeur de l'utilisateur pour qu'elle corresponde au mot de passe du fichier.
 
 FLAG : `generate_key`
 
@@ -86,7 +86,7 @@ Pour tous les caractères dans argument1 fait
     caractère = (caractère ^ 0x2A) + 5
 Fin Pour
 ```
-En suivant cette logique il est possible de déterminer la valeur pour 'B'. Sur Cyberchef il est possible d'effectuer ce calcul.
+En suivant cette logique il est possible de déterminer la valeur pour 'B'. Sur Cyberchef on obtient :
 
 <img src="images/cyberchef.png" alt="Déchiffrage du caractère B sous cyberchef" width="900"/>
 
