@@ -1,0 +1,35 @@
+# Input two arrays as strings
+signals = input()  # First input array as a string
+weights = input()  # Second input array as a string
+
+# Write your solution below and make sure to print the maximum stability score
+
+def max_stability_score(signals, weights):
+
+    
+    modified_signals = [s * w for s, w in zip(signals, weights)]
+
+    max_product = float('-inf')  
+    current_max = 1  
+    current_min = 1  
+
+    for num in modified_signals:
+        if num == 0:
+            current_max, current_min = 1, 1
+            max_product = max(max_product, 0)
+            continue
+
+        temp = current_max
+        current_max = max(num, num * current_max, num * current_min)
+        current_min = min(num, num * temp, num * current_min)
+
+        max_product = max(max_product, current_max)
+
+    return max_product
+
+# Example Usage
+
+output = max_stability_score(eval(signals), eval(weights))
+print(output)
+
+# Flag : HTB{m1ssi0n_c0mpl3t3d_m4x1mum_5t4b1l1ty_4ch13v3d!}
