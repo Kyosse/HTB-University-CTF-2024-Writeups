@@ -20,9 +20,9 @@ Nous avons terminé à la **190ème place** avec un total de **10925 points**.
 | <a href="https://github.com/0xSpiizN/HTB-University-CTF-2024-Writeups/tree/main/0xSpiizN#armaxis">Armaxis</a> | Web | 0xSpiizN |
 | alphascii clashing | Crypto | Mpoijytre |
 | <a href="https://github.com/0xSpiizN/HTB-University-CTF-2024-Writeups/tree/main/0xSpiizN#mutlock">MuTLock</a> | Crypto | 0xSpiizN |
-| CryoWarmup | Reversing | Kyosse (5/7) |
+| [CryoWarmup](https://github.com/0xSpiizN/HTB-University-CTF-2024-Writeups/tree/main/Kyosse/CryoWarmup/writeup.md) | Reversing | Kyosse (5/7) |
 | CryoWarmup | Reversing | Arikihiko (1/7) |
-| ColossalBreach | Reversing | Kyosse (5/7) |
+| [ColossalBreach](https://github.com/0xSpiizN/HTB-University-CTF-2024-Writeups/tree/main/Kyosse/ColossalBreach/writeup.md) | Reversing | Kyosse (5/7) |
 | ColossalBreach | Reversing | Ploc300 (1/7) |
 | <a href="https://github.com/0xSpiizN/HTB-University-CTF-2024-Writeups/tree/main/0xSpiizN#frontier-exposed">Frontier Exposed</a> | Forensics | 0xSpiizN |
 | <a href="https://github.com/0xSpiizN/HTB-University-CTF-2024-Writeups/tree/main/0xSpiizN#wanter-alive">Wanter Alive</a> | Forensics | 0xSpiizN |
@@ -30,6 +30,6 @@ Nous avons terminé à la **190ème place** avec un total de **10925 points**.
 | Word Wrangler | Coding | Ploc300 |
 | Exclusivity | Coding | Uratronc |
 | Conflict Cruncher | Coding | Ploc300 |
-| Weighted Starfield | Coding | Kyosse |
+| [Weighted Starfield](https://github.com/0xSpiizN/HTB-University-CTF-2024-Writeups/tree/main/Kyosse/Weighted%20Starfield) | Coding | Kyosse |
 | <a href="https://github.com/0xSpiizN/HTB-University-CTF-2024-Writeups/tree/main/0xSpiizN#cryopod">CryoPod</a> | Blockchain | 0xSpiizN |
 | Welcome to CTF | Warmup | Ploc300 |
