@@ -281,7 +281,7 @@ function parseMarkdown(content) {
 ```
 
 La fonction remplace les images Markdown (`![Image](URL)`) par une balise html <code>img</code> en récupérant le contenu de l'image par une requête `curl`.
-La focntion ne filtre pas les URL données donc on peut lire un fichier local via: `file://`.
+La fonction ne filtre pas les URL données donc on peut lire un fichier local via: `file://`.
 
 ### Exploitation : extraction du flag
 
