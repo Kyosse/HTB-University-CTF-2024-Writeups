@@ -65,7 +65,9 @@ Pour cette question il faut s'interesser à la fonction init du module ou `spy_i
 
 Pour le chemin où est enregistrer ce fichier il faut regarder un peu plus haut dans la fonction init. On peut voir une fonction similaire `debugfs_create_dir` qui va elle créer le répertoire `spyyy`. Cela nous donne le nom du fichier et son répèrtoire parent mais pas son chemin complet. En lisant la documentation à propos de cette fonction on apprend que par défaut le répèrtoire est créer avec ce chemin `sys/kernel/debug/` ce qui nous permet de construire le chemin complet de notre fichier.
 
-FLAG : `/sys/kernel/debug/spyyy/keys`
+FLAG : `/sys/kernel/debug/spyyy/keys`*
+
+* Merci à Ploc300 pour l'aide sur ce challenge !
 
 ### 5. What message does the module print when imported?
 ---
